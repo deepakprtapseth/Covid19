@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestCenter">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text="Test Center:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:text=" State: "/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Andhra Pradesh " />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="center"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:text="Arunachal Pradesh" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Assam" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Bihar" />
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Chhattisgarh " />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Goa" />
+    <Button
+    android:id="@+id/button7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="15dp"
+    android:textSize="20sp"
+        android:onClick="center"
+    android:text="Gujarat" /> <Button
+    android:id="@+id/button8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="15dp"
+    android:onClick="center"
+    android:textSize="20sp"
+    android:text="Haryana" />
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Himachal Pradesh" />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Jharkhand" />
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Karnataka " />
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Kerala" />
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Madhya Pradesh" />
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Maharashtra " />
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Manipur" />
+    <Button
+    android:id="@+id/button16"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+        android:onClick="center"
+        android:padding="15dp"
+    android:textSize="20sp"
+    android:text="Meghalaya" />
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Mizoram" />
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Nagaland " /> <Button
+    android:id="@+id/button19"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="15dp"
+    android:textSize="20sp"
+    android:onClick="center"
+    android:text="Odisha" />
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Punjab " />
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Rajasthan " /> <Button
+    android:id="@+id/button22"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="15dp"
+    android:textSize="20sp"
+    android:onClick="center"
+    android:text="Sikkim " />
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Tamil Nadu" />
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Telangana" />
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Tripura " />
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Uttarakhand" />
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Uttar Pradesh" />
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="center"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:text="West Bengal" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="32sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Union Territory (UT)"/>
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Andaman and Nicobar" />
+    <Button
+        android:id="@+id/button30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Chandigarh" />
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Dadra and Nagar Haveli" />
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Daman and Diu" />
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:textSize="20sp"
+        android:onClick="center"
+        android:text="Delhi" />
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Jammu and Kashmir" />
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Ladakh" />
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Lakshadweep " />
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:onClick="center"
+        android:textSize="20sp"
+        android:text="Puducherry" />
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

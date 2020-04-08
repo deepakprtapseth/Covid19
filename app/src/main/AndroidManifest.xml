@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covid19">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SyptomsChecker"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Arunachal"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".NagaLand"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Mizoram"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Lakshadweep"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Ladakha"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Dadra"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Daman"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WestBengal"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Uttarakhand"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".UP"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Telangana"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tripura"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tamil"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Rajasthan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Punjab"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Puducherry"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Odisha"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Manipur"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Maharashtra"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Meghalaya"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Madhya"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Kerala"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Karnataka"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Jharkhand"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Jammu"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Himachal"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Haryana"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Gujarat"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Delhi"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Chhattisgarh"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Chandigarh"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Bihar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Assam"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Andaman"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Andhra"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TestCenter"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Help"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Sysmptoms"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Precaution"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Home"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
